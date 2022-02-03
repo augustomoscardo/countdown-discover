@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?        family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"
+  >
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Countdown</title>
+</head>
+<body>
+  <main class="webContainer">
+    <img src="./images/top-image.svg" alt="Top Image">
+
+    <div class="container">
+      <section class="leftContainer">
+        <h1>Ready to launch in...</h1>
+  
+        <div class="countdown">
+          <div class="item days">
+            <p>Dias</p>
+            <span></span>
+            
+          </div>
+
+          <span>:</span>
+          
+          <div class="item hours">
+            <p>Horas</p>
+            <span></span>
+          </div>
+          
+          <span>:</span>
+
+          <div class="item minutes">
+            <p>Minutos</p>
+            <span></span>
+          </div>
+          
+          <span>:</span>
+
+          <div class="item seconds">
+            <p>Segundos</p>
+            <span></span>
+          </div>
+        </div>
+  
+        <div class="subscribe">
+          <p>Inscreva-se para saber mais sobre o lançamento</p>
+          <button>
+            Inscreva-se
+          </button>
+        </div>
+      </section>
+
+      <section class="rightContainer">
+        <img src="./images/rocket.svg" alt="Rocket">
+      </section>
+    </div>
+    
+    <img src="./images/bottom-image.svg" alt="Bottom Image">
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="modal-content">
+          <strong>Por favor, preencha seus dados</strong>
+
+          <form class="subscription">
+            <div class="name">
+              <div class="inputName">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome completo">
+              </div>
+              <span class="nameError">Nome não informado.</span>
+            </div>
+            <div class="email">
+              <div class="inputEmail">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor E-mail">
+              </div>
+              <span class="emailError">E-mail não informado.</span>
+              <span class="emailInvalid">E-mail inválido! Por favor, insira um E-mail válido.</span>
+            </div>
+
+            <button type="submit">
+              Enviar
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="./scripts.js"></script>
+</body>
+</html>
