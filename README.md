@@ -8,7 +8,7 @@ You can run Live Server, or copy index.html path and paste into the browser.
 
 # Project view
 
-  <img src="images/desktop.png" alt="Desktop design" width="200" height="400">
+  <img src="images/desktop.png" alt="Desktop design" width="300" height="150">
   <img src="images/modal.png" alt="Modal" width="300" height="150">
   <img src="images/modal-error.png" alt="Modal Error" width="300" height="150">
 
